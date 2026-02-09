@@ -31,10 +31,6 @@ class ARPG_PrototypeCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
 
-
-	/** Custom Not From Template */
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
-	//UAbilitySystemComponent* AbilitySystemComponent;
 protected:
 
 	/** Jump Input Action */
