@@ -10,7 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c261fc8-2955-4ec8-8836-570ecb67b3f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source/RPG_Prototype/RPG_PrototypeCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RPG_Prototype/RPG_PrototypeCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG_Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AbilitySystemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AbilitySystemComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Attribute.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnEffect.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/EffectMath.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/EffectType.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Stat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/TargetStat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Combat/Anims/AM_ChargedAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Combat/Anims/AM_ChargedAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RPG_Prototype/Private/Variant_RPG/RPGEnums.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RPG_Prototype/Public/Variant_RPG/RPGEnums.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +208,7 @@
       <workItem from="1770520827474" duration="2854000" />
       <workItem from="1770576418878" duration="4680000" />
       <workItem from="1770596815724" duration="502000" />
+      <workItem from="1771519838949" duration="276000" />
     </task>
     <servers />
   </component>
