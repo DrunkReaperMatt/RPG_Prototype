@@ -10,19 +10,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c261fc8-2955-4ec8-8836-570ecb67b3f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/BP_BattleScene.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/BP_EquipmentMesh.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/BP_TurnBasedAbility.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/BP_TurnEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_BattleScene.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Characters/BP_TBActor_Base.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Characters/Enemies/BP_TBEnemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Characters/MI_Manny_02_New_Inst.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Characters/Players/BP_TBPlayer.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Components/AbilitySystemComponent.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/DataAssets/BasicEncounterTAble.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/DataAssets/EquipmentDataAsset.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/DataAssets/Helmet.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Enums/EffectMath.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Enums/EffectType.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Enums/TargetStat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Functions/RPGFunctions.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/GA_Jump.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Interfaces/BPI_TurnBasedCombat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/MI_Manny_02_New_Inst.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Structs/Attribute.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Structs/AttributeCost.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Structs/AttributeModifier.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Structs/EnemyEncounter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/Structs/Stat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TBRPG_PlayerController.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/AbilitySystemComponent_C.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/AttributeCost.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/BPI_TurnBasedCombat_C.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/BP_TBActor_C.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/DataAssets/EquipmentDataAsset_C.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/DataAssets/Helmet.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Default__BP_BattleScene_C_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Default__BP_EquipmentMesh_C_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Default__BP_TurnBasedAbility_C_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Default__BP_TurnEffect_C_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Default__GA_Jump_C_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Enums/EffectMath.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Enums/EffectType.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Enums/TargetStat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/RPGFunctions_C.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Structs/Attribute.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Structs/AttributeModifier.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/TBRpg/TODELETE/Structs/Stat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/WQ/B2GL78SKLB6D5BHNHGFEP8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/JT/8CTK1W2W4E8M4QXVS5D4HH.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AbilitySystemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AbilitySystemComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Attribute.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AttributeCost.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/AttributeCost.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BPI_TurnBasedCombat.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BPI_TurnBasedCombat.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_EquipmentMesh.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_EquipmentMesh.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TBActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TBActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnBasedAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnBasedAbility.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/BP_TurnEffect.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/EffectMath.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/EffectType.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Stat.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/TargetStat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/DataAssets/EquipmentDataAsset.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/DataAssets/EquipmentDataAsset.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/DataAssets/Helmet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/DataAssets/Helmet.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/EffectMath.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/EffectMath.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/EffectType.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/EffectType.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/TargetStat.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Enums/TargetStat.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/GA_Jump.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/GA_Jump.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/RPGFunctions.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/RPGFunctions.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/Attribute.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/Attribute.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/AttributeModifier.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/AttributeModifier.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/Stat.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TBRpg/Blueprints/Structs/Stat.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Combat/Anims/AM_ChargedAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Combat/Anims/AM_ChargedAttack.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RPG_Prototype/Private/Variant_RPG/RPGEnums.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RPG_Prototype/Public/Variant_RPG/RPGEnums.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Lvl_ThirdPerson.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Lvl_ThirdPerson.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +87,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../UE_5.7/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../UE_5.7/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
@@ -48,22 +101,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;blueprint&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "blueprint",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CppUnrealEngineOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C/C++ Project.RPG_Prototype">
     <configuration name="RPG_Prototype" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -209,6 +262,8 @@
       <workItem from="1770576418878" duration="4680000" />
       <workItem from="1770596815724" duration="502000" />
       <workItem from="1771519838949" duration="276000" />
+      <workItem from="1771609987322" duration="854000" />
+      <workItem from="1771617334075" duration="420000" />
     </task>
     <servers />
   </component>
