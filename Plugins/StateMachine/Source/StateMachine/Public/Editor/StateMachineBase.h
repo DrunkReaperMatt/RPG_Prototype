@@ -31,10 +31,10 @@ public:
 
 	// TODO Add Root Nodes
 	UPROPERTY(BlueprintReadOnly, Category = "State Machine")
-	TArray<UGenericGraphNode*> RootNodes;
+	TArray<UObject*> RootNodes;
 
 	UPROPERTY(BlueprintReadOnly, Category = "State Machine")
-	TArray<UGenericGraphNode*> AllNodes; 
+	TArray<UObject*> AllNodes; 
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "State Machine")
 	FGameplayTagContainer GraphTags;
@@ -49,7 +49,7 @@ public:
 	int GetLevelNum() const;
 
 	UFUNCTION(BlueprintCallable, Category = "State Machine")
-	void GetNodesByLevel(int Level, TArray<UGenericGraphNode*>& Nodes);
+	void GetNodesByLevel(int Level, TArray<UObject*>& Nodes);
 
 	void ClearGraph();
 

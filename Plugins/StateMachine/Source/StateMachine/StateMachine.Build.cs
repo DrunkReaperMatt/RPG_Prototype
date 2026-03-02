@@ -37,7 +37,7 @@ public class StateMachine : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore", "GenericGraphRuntime",
+				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

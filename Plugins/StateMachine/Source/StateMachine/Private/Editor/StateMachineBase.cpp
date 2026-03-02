@@ -3,7 +3,7 @@
 
 #include "Editor/StateMachineBase.h"
 
-#include "GenericGraphEdge.h"
+//#include "GenericGraphEdge.h"
 
 UStateMachineBase::UStateMachineBase()
 {
@@ -28,7 +28,7 @@ int UStateMachineBase::GetLevelNum() const
 	return 0;
 }
 
-void UStateMachineBase::GetNodesByLevel(int Level, TArray<UGenericGraphNode*>& Nodes)
+void UStateMachineBase::GetNodesByLevel(int Level, TArray<UObject*>& Nodes)
 {
 }
 
