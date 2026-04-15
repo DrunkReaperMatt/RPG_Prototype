@@ -3,10 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
 #include "MannequinnFantasyCharacter.generated.h"
 
+class UAbilitySystemComponent;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
@@ -19,7 +21,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
  *  Implements a controllable orbiting camera
  */
 UCLASS(abstract)
-class AMannequinnFantasyCharacter : public ACharacter
+class AMannequinnFantasyCharacter : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -30,6 +32,12 @@ class AMannequinnFantasyCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Abilities", meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UMFAbilitySystemComponent> AbilitySystemComponent;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Abilities", meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<class UMFAbilitySet> HealthSet;
 	
 protected:
 
@@ -53,11 +61,16 @@ public:
 
 	/** Constructor */
 	AMannequinnFantasyCharacter();	
+	
+	virtual void BeginPlay() override;
+	
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
 
 	/** Initialize input action bindings */
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
 
 protected:
 
